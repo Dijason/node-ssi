@@ -19,6 +19,11 @@ __Note:__ The current version of ssi does all IO synchronously. Further developm
 <!--#elif expr="" -->
 <!--#else -->
 <!--#endif -->
+
+
+<!--output server time-->
+<!--#config timefmt="%Y%m%d%H%M%S" -->
+<!--#echo var="DATE_LOCAL"-->
 ```
 
 ### Installation
